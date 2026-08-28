@@ -1,0 +1,6 @@
+{
+  "name": "Lingüística & LLMs: Guía Pedagógica para Docentes de Inglés (INA)",
+  "description": "Plataforma pedagógica para 245 docentes de inglés de las 9 Unidades Regionales del Instituto Nacional de Aprendizaje (INA) - Núcleo Sector Comercio y Servicios / Subsector de Idiomas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
