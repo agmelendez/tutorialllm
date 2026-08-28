@@ -34,11 +34,11 @@ export const TokenizerSimulator: React.FC = () => {
     if (!text) return [];
 
     // Simple robust tokenizer for demonstration
-    const wordsAndPunct = text.match(/\w+|[^\s\w]/g) || [];
+    const wordsAndPunct: string[] = text.match(/\w+|[^\s\w]/g) || [];
     const result: SimulatedToken[] = [];
     let idCounter = 1000;
 
-    wordsAndPunct.forEach((rawWord) => {
+    wordsAndPunct.forEach((rawWord: string) => {
       // Check if it is punctuation
       if (/^[^\s\w]+$/.test(rawWord)) {
         result.push({
